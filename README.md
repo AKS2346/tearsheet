@@ -1,9 +1,12 @@
-# tearsheet
+# A simple applciation to produce a tearsheet in the terminal for a ticker
 
 ## Usage
 ./yf.py {ticker} 
+
 replace {ticker} with a ticker as in 
 ./yf.py DIS produces: 
+
+
 ```
                                                                                Walt Disney Company (The)
                                                                                                ╷
@@ -64,7 +67,7 @@ replace {ticker} with a ticker as in
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────────────────┘
 ```
 
-## A simple terminal application to produce a tearsheet on a company
+## Current libraries - how it works
  * reads data from Yahoo Finance
  * Uses yfinance python library to do so
  * Uses rich library to create table
