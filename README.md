@@ -1,4 +1,4 @@
-# A simple applciation to produce a tearsheet in the terminal for a ticker
+# A simple application to produce a tearsheet in the terminal for a ticker
 
 ## Usage
 ./yf.py {ticker} 
